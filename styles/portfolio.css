@@ -344,12 +344,12 @@
       height: 632px;
       display: flex;
       padding: 30px 30px 0px 150px;
-      
+
   }
 
   .ex-text {
       margin-top: 170px;
-      
+
   }
 
   .ex-1 {
@@ -431,7 +431,82 @@
       margin-bottom: 20px;
   }
 
+  .awards{
+    margin-top: 100px;
+  }
 
+  .awards-title {
+      font-size: 40px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 800;
+      color: black;
+      text-align: center;
+      margin-bottom: 15px;
+
+  }
+
+  .awards-des {
+      font-size: 18px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 400;
+      color: black;
+      text-align: center;
+      margin-bottom: 35px;
+      width: 541px;
+      margin-left: 450px;
+
+  }
+
+  .awards-show{
+    width: 1041px;
+    height: 180px;
+    background-color: black;
+    align-items: center;
+    padding: 20px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    
+  }
+
+  .show-title{
+    display: flex;
+  }
+
+  .show-name{
+    font-size: 24px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 400;
+      color: white;
+      text-align: left;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      margin-top: 30px;
+  }
+
+  .show-org{
+    font-size: 18px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 700;
+      color: white;
+      text-align: right;
+      margin-bottom: 15px;
+      margin-left: 400px;
+      margin-top: 30px;
+  }
+
+  .khabo{
+    font-size: 18px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 400;
+      color: white;
+      width: 660px;
+      margin-left: 20px;
+  }
 
 
 
@@ -560,4 +635,11 @@
           margin-left: 0px;
           margin-right: 0px;
       }
+
+.awards-des{
+    margin-left: 0px;
+}
+
+
+
   }
