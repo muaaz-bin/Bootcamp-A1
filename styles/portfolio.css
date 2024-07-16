@@ -1,0 +1,438 @@
+  /* Mulish font for all the text  */
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+ 
+  * {
+    font-family: 'Mulish', sans-serif;
+    /* padding-left: 135px;
+  padding-right: 135px; */
+
+}
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+    /* nav related styles start*/
+
+    
+
+    .logo {
+        width: 48px;
+        height: 56.008px;
+        flex-shrink: 0;
+    }
+  
+    .home-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 2.3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        display: flex;
+    }
+  
+    .cv-btn {
+        max-width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border-style: none;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        cursor: pointer;
+        /* padding-left: 10px; */
+    }
+    .ruch {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 2.3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin-left: 17px;
+        margin-top: 0px;
+    }
+  
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 135px;
+        margin-right: 127px;
+    }
+  
+    nav>ul {
+        display: flex;
+        align-items: center;
+    }
+  
+    .nav-menu {
+        color: #ffffff;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1.13rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+  
+    nav li {
+        list-style: none;
+        margin-right: 44px;
+        color: #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1.13rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+  
+    .hamburger {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        display: none;
+    }
+  
+    .home {
+        color: #FF5400;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1.13rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+  
+    nav li a {
+        text-decoration: none;
+    }
+  
+    /* nav related styles end */
+
+
+
+    .banner {
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .baneer-content {
+        max-width: 500px;
+    }
+    
+    .banner .profile-pic {
+        /* width: 584px; */
+        height: 676px;
+        flex-shrink: 0;
+    }
+    
+    .banner-greeting {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 0px;
+    }
+    
+    .banner-title {
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .banner-description {
+        margin-top: 0px;
+        color: var(--Dark-03, #757575);
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        width: 527px;
+        margin-bottom: 15px;
+        /* 166.667% */
+    }
+
+    .banner-extra {
+        font-size: 24px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+.hire{
+    width: 310px;
+    height: 52px;
+    border-radius: 50px;
+    border: 2px;
+    padding: 10px;
+    gap: 10px;
+    border-style: solid;
+    border-color: antiquewhite;
+    display: flex;
+    margin-top: 10px;
+    background-color: #a29f9f;
+}
+
+.hd{
+    margin-bottom: 10px;
+    margin-top: -8px;
+}
+
+.ht{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px; 
+    color: white;
+}
+
+    .btn-pri {
+        max-width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 60px;
+        border-style: none;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        /* padding-left: 10px; */
+    }
+    .btn-sec {
+        max-width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        border-radius: 60px;
+        border-style: none;
+        background: #3f322b;
+        color: #FFF;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: pointer;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        /* padding-left: 10px; */
+    }
+
+    .social{
+        margin-top: 20px;
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+
+.profile-pic{
+    margin-left: 0px;
+    /* padding: 30px 30px 0px 50px; */
+    /* padding-right: 200px; */
+    
+    /* background: no-repeat; */
+}
+
+.dhaka{
+    color: #FF5400;
+    font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        font-family: Rubik;
+}
+
+.about-me{
+    margin-top: 50px;
+    display: flex;
+    padding: 30px 30px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 0px;
+        margin-bottom: 50px;
+}
+
+.at{
+    font-size: 40px;
+        font-style: normal;
+        font-family: Rubik;
+        font-weight: 800;
+        color: black;
+        margin-bottom: 0px;
+}
+.ad{
+    font-size: 18px;
+        font-style: normal;
+        font-family: Rubik;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 0px;
+        width: 541px;
+}
+.star{
+    flood-color: #FF5400;
+}
+
+.ten{
+    font-size: 47px;
+        font-style: normal;
+        font-family: Rubik;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 0px;
+}
+.exp{
+    font-size: 20px;
+        font-style: normal;
+        font-family: Rubik;
+        font-weight: 400;
+        color: black;
+        margin-bottom: 0px;
+        text-align: right;
+        margin-top: -1px;
+}
+.exp{
+    padding-right: 80px;
+}
+
+
+
+
+
+
+
+
+     /* responsive for small device or mobile  */
+
+  @media screen and (max-width: 600px) {
+
+    /* body{
+  max-width: 600px;
+  overflow-x: hidden;
+} */
+    * {
+        /* padding-left: 20px; */
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    body {
+        /* border: 1px solid tomato; */
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav {
+        margin-left: -70px;
+        margin-right: 0px;
+    }
+
+    .logo {
+        max-width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+        margin-right: 10px;
+        margin-left: 70px;
+    }
+
+    .hamburger {
+        display: inline;
+        margin-left: -20px;
+        margin-right: 0px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+.hire{
+    width: 350px;
+    height: 80px;
+}
+
+.btn-pri{
+    /* width: 400px; */
+    height: 80px;
+}
+
+    .banner {
+        max-width: 500px;
+        height: auto;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        background-position: center;
+        border: #FF5400;
+        border: solid;
+        border: 2px;
+    }
+    .about-me {
+        max-width: 500px;
+        height: auto;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        background-position: center;
+        border: #FF5400;
+        border: solid;
+        border: 2px;
+    }
+    .profile-pic{
+        max-width: 600px;
+        padding: 0px;
+    }
+
+    .home-title {
+        margin-right: 148px;
+        font-size: 21.543px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .ruch {
+        font-size: 21.543px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }}
