@@ -508,6 +508,87 @@
       margin-left: 20px;
   }
 
+.port{
+    margin-top: 20px;
+    margin-left: 420px;
+    margin-bottom: 20px;
+}
+
+  .port-section{
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    /* margin-left: 100px; */
+  }
+
+  .port-section-name{
+    /* height: 36px; */
+    background-color: black;
+    padding: 8px;
+    margin-right: 15px;
+  }
+  .port-section-name2{
+    /* height: 36px; */
+    background-color: #FF5400;
+    padding: 8px;
+    margin-right: 15px;
+  }
+
+  .psn-text{
+    font-size: 24px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+      
+  }
+
+  .case{
+    margin-top: 40px;
+    padding: 30px 30px 0px 150px;
+
+  }
+
+  .case-pic{
+    max-width: 445px;
+    max-height: 334px;
+    margin-left: 30px;
+    /* background-image: url(../Images/Untitled-3.jpg); */
+    
+  }
+
+  .casetxt-1{
+    font-size: 18px;
+      font-style: italic;
+      font-family: Rubik;
+      font-weight: 600;
+      color: black;
+  }
+  .casetxt-2{
+    font-size: 40px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 700;
+      color: black;
+  }
+  .casetxt-3{
+    font-size: 18px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 400;
+      color: #757575;
+      max-width: 559px;
+      /* margin-bottom: 100px; */
+  }
+
+  .case{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  
 
 
 
@@ -638,6 +719,46 @@
 
 .awards-des{
     margin-left: 0px;
+}
+
+.awards-show{
+    max-width: 580px;
+    height: 300px;
+    margin-left: 0px;
+    padding: 0px;
+    margin-right: 0px;
+}
+
+.show-org{
+    margin-left: 100px;
+}
+
+.khabo{
+    max-width: 480px;
+
+}
+
+.port{
+    margin-left: 0px;
+}
+
+.port-section{
+    flex-direction: column;
+    
+}
+
+.case{
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.case-pic{
+    margin-left: 0px;
+    padding: 0px;
+}
+.case-txt{
+    margin-right: 0px;
 }
 
 
