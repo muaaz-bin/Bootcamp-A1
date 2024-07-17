@@ -687,6 +687,79 @@
     /* padding-left: 10px; */
 }
 
+.footer1{
+    width: 1445px;
+    height: 400px;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 150px;
+}
+
+.footer-title{
+    font-size: 64px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 700;
+    color: #FF5400;
+    text-align: center;  
+    margin-top: 0px; 
+
+}
+
+.footer-menu{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.fmenu-txt{
+    font-size: 21px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 400;
+    color: white;
+    text-align: center;  
+    margin-top: 0px; 
+}
+
+.socialimg{
+    height: 35px;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.footer2{
+    width: 1445px;
+    height: 74px;
+    background-color: #424247;
+    margin-top: -20px;
+    padding-top: 50px;
+}
+
+.ftxt{
+    font-size: 21px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 400;
+    color: #FF5400;
+    text-align: center;  
+    margin-top: 0px;
+}
+.ftxt2{
+    font-size: 21px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 400;
+    color: white;
+    text-align: center;  
+    margin-top: 0px;
+}
+
+
+
   
 
 
@@ -888,6 +961,49 @@
 }
 .form-txt3{
     margin-left: 40px;
+}
+
+.footer1{
+    width: 560px;
+    height: 800px;
+    background-color: black;
+    margin-top: 100px;
+    padding-top: 150px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.footer2{
+    width: 560px;
+    height: 100px;
+    background-color: #424247;
+    /* margin-top: 100px;
+    padding-top: 150px; */
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+
+.footer-menu{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.socialimg{
+    height: 35px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.footer-title{
+    margin-left: -20px;
+    margin-right: 0px;
 }
 
 
