@@ -445,12 +445,34 @@
       margin-bottom: 15px;
 
   }
+  .awards-title2 {
+      font-size: 18px;
+      font-style: italic;
+      font-family: Rubik;
+      font-weight: 600;
+      color: black;
+      text-align: center;
+      margin-bottom: 10px;
+
+  }
 
   .awards-des {
       font-size: 18px;
       font-style: normal;
       font-family: Rubik;
       font-weight: 400;
+      color: black;
+      text-align: center;
+      margin-bottom: 35px;
+      width: 541px;
+      margin-left: 450px;
+
+  }
+  .awards-des2 {
+      font-size: 40px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 700;
       color: black;
       text-align: center;
       margin-bottom: 35px;
@@ -588,6 +610,83 @@
     margin-bottom: 50px;
   }
 
+  .form{
+    margin-top: 40px;
+    padding: 30px 30px 0px 150px;
+    width: 1040px;
+    height: 536px;
+    background-image: url(../Images/Untitled-4.jpg);
+    margin-left: 125px;
+    /* background-color: #FD6F001A; */
+  }
+
+  .form-title{
+    font-size: 40px;
+      font-style: normal;
+      font-family: Rubik;
+      font-weight: 700;
+      color: white;
+      margin-top: 50px;
+  }
+
+  .name-email{
+    display: flex;
+    gap: 80px;
+    margin-bottom: 50px;
+  }
+
+  .form-txt{
+    font-size: 16px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 500;
+    color: white;
+  }
+  .form-txt2{
+    font-size: 16px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 500;
+    color: white;
+  }
+  .form-txt3{
+    font-size: 16px;
+    font-style: normal;
+    font-family: Rubik;
+    font-weight: 500;
+    color: white;
+  }
+
+  .hr1{
+    width: 376px;
+  }
+  .hr2{
+    width: 812px;
+    margin-left: -5px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .sn-btn {
+    max-width: 183px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 0px;
+    border-style: none;
+    background: #FF5400;
+    color: #FFF;
+    padding: 18px 30px 18px 30px;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 40px;
+    /* padding-left: 10px; */
+}
+
   
 
 
@@ -720,6 +819,9 @@
 .awards-des{
     margin-left: 0px;
 }
+.awards-des2{
+    margin-left: 0px;
+}
 
 .awards-show{
     max-width: 580px;
@@ -759,6 +861,33 @@
 }
 .case-txt{
     margin-right: 0px;
+}
+
+.form{
+    margin-left: 0px;
+    max-width: 580px;
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 650px;
+}
+
+.name-email{
+    flex-direction: column;
+}
+
+.hr2{
+    max-width: 376px;
+    margin-left: 40px;
+}
+
+.form-txt2{
+    margin-left: 40px;
+}
+.form-txt3{
+    margin-left: 40px;
 }
 
 
